@@ -20,7 +20,7 @@
     "ios": {
       "supportsTablet": true,
       "bitcode": false,
-      "bundleIdentifier": "co.daily.bots.expo.RNDailyBotsDemo",
+      "bundleIdentifier": "co.ara.dailybots",
       "infoPlist": {
         "UIBackgroundModes": [
           "voip"
@@ -32,7 +32,7 @@
         "foregroundImage": "./assets/images/dailyBot.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "co.daily.bots.expo.RNDailyBotsDemo",
+      "package": "co.ara.dailybots",
       "permissions": [
         "android.permission.ACCESS_NETWORK_STATE",
         "android.permission.BLUETOOTH",
@@ -69,6 +69,11 @@
           }
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "73188408-c789-4a62-b34f-54db406b0df9"
+      }
+    }
   }
 }
